@@ -1,12 +1,12 @@
 import { fishList } from './fishList.js'
-//import { tipList } from './tipList.js'
+import { tipList } from './tipList.js'
 //import { locationList } from './locationList.js'
 
 // Generate the fish list
 const fishHTML = fishList()
 
-// // Generate the care tips
-// const tipHTML = tipList()
+ // Generate the care tips
+const tipHTML = tipList()
 
 // // Generate the location list
 // const locationHTML = locationList()
@@ -15,3 +15,6 @@ const fishHTML = fishList()
 
 let fishContainer = document.querySelector("#fishList")
 fishContainer.innerHTML = fishHTML
+
+let tipContainer = document.querySelector("#tipList")
+tipContainer.innerHTML = tipHTML
