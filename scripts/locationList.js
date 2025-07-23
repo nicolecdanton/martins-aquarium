@@ -9,10 +9,11 @@ export const locationList = () => {
         html += `
             <section class="location">
                 <h3>${location.name}</h3>
-                <p>Country ${location.country}</p>
+                <p>Country: ${location.country}</p>
                 <p>${location.description}</p>
             </section>
         `
     }
+    html += `</article>`
     return html
 };

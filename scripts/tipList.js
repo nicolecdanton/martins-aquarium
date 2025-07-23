@@ -10,5 +10,6 @@ export const tipList = () => {
             </li>
         `
     }
+    html += `</ul>`
     return html
 };

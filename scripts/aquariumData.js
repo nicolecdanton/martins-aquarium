@@ -81,7 +81,27 @@ export const database = {
         {
             topic: "Tank Cleaning",
             text: "Clean the tank regularly to avoid algae buildup and harmful bacteria."
-        }
+        },
+        {
+        topic: "Proper Filtration",
+        text: "Use a high-quality filter to keep the water clean and ensure proper oxygen levels."
+    },
+    {
+        topic: "Feeding Schedule",
+        text: "Feed your fish small amounts 1-2 times a day. Avoid overfeeding to prevent water contamination."
+    },
+    {
+        topic: "Water Changes",
+        text: "Change 20-30% of the tank water weekly to keep the environment healthy."
+    },
+    {
+        topic: "Lighting",
+        text: "Provide 8-12 hours of light daily to mimic a natural day/night cycle, but avoid placing the tank in direct sunlight."
+    },
+    {
+        topic: "Plant Care",
+        text: "If you have live plants, trim dead leaves and use aquarium-safe fertilizers for healthy growth."
+    }
     ],
     locations: [
         {
@@ -93,6 +113,31 @@ export const database = {
             name: "Dentist’s Fish Tank",
             country: "Australia",
             description: "This is where the fish escape in plastic bags"
+        },
+        {
+            name: "Monterey Bay Aquarium",
+            country: "United States",
+            description: "A world-famous public aquarium in California known for its marine conservation efforts."
+        },
+        {
+            name: "Red Sea Coral Reef",
+            country: "Egypt",
+            description: "Home to vibrant coral reefs and over 1,200 species of fish."
+        },
+        {
+            name: "Amazon River Basin",
+            country: "Brazil",
+            description: "A freshwater ecosystem teeming with exotic fish species and unique aquatic plants."
+        },
+        {
+            name: "Bora Bora Lagoon",
+            country: "French Polynesia",
+            description: "A tropical paradise with crystal-clear waters and diverse reef fish."
+        },
+        {
+            name: "Galápagos Islands",
+            country: "Ecuador",
+            description: "A volcanic archipelago famous for unique marine species found nowhere else in the world."
         }
     ]
 }

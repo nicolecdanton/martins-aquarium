@@ -1,0 +1,44 @@
+main {
+  display: flex;
+  justify-content: flex-start; /* items flow left to right */
+  align-items: flex-start;     /* align to the top */
+  gap: 20px;                   /* space between fish and tips */
+  padding: 20px;
+}
+
+.left-column {
+  flex-grow: 2;
+  flex-shrink: 1;   /* default */
+  flex-basis: 0%;   /* default when only one number is given */
+  display: flex;
+  flex-direction: column; /* stacks fish and locations */
+  gap: 20px;
+}
+
+#fishList {
+  display: flex;
+  flex-wrap: wrap;        /* allows multiple rows */
+  gap: 10px;              /* space between cards */
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+
+#tipList {
+  flex-grow: 1;
+  flex-shrink: 1;  /* default */
+  flex-basis: 0%;  /* default when only one number is given */
+  max-width: 250px;  /* optional, controls column width */
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 10px;
+}
